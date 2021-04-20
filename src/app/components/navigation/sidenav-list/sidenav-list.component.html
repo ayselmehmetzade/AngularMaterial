@@ -1,0 +1,26 @@
+<mat-nav-list fxLayoutGap="8px">
+    <mat-list-item>
+        <a matLine routerLink="/signup" (click)="onClose()">
+            <mat-icon>face</mat-icon>
+            <span class="nav-caption">Signup</span>
+        </a>
+    </mat-list-item>
+    <mat-list-item>
+        <a matLine routerLink="/login" (click)="onClose()">
+            <mat-icon>input</mat-icon>
+            <span class="nav-caption">Login</span>
+        </a>
+    </mat-list-item>
+    <mat-list-item>
+        <a matLine routerLink="/training" (click)="onClose()">
+            <mat-icon>fitness_center</mat-icon>
+            <span class="nav-caption">Training</span>
+        </a>
+    </mat-list-item>
+    <mat-list-item>
+        <button mat-icon-button>
+            <mat-icon>eject</mat-icon>
+            <span class="nav-caption" (click)="onClose()">Logout</span>
+        </button>
+    </mat-list-item>
+</mat-nav-list>
