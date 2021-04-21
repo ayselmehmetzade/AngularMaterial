@@ -13,7 +13,7 @@ import { NewTrainingComponent } from './components/training/new-training/new-tra
 import { PastTraningsComponent } from './components/training/past-tranings/past-tranings.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/navigation/header/header.component';
 import { SidenavListComponent } from './components/navigation/sidenav-list/sidenav-list.component';
 import { StopTrainingComponent } from './components/training/current-training/stop-training.component';
@@ -39,7 +39,8 @@ import { StopTrainingComponent } from './components/training/current-training/st
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

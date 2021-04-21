@@ -35,10 +35,12 @@ export class CurrentTrainingComponent implements OnInit {
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
         this.trainingExit.emit();
-      }
-      else{
+      } else {
         this.startOrResumeTimer();
       }
     });
   }
 }
+
+
+// video 55

@@ -1,4 +1,4 @@
-export interface Work {
+export interface IWork {
   value: string;
   viewValue: string;
 }

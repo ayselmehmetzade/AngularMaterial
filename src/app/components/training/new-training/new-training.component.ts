@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { Work } from 'src/app/interfaces/work';
+import { IWork} from 'src/app/interfaces/work';
 
 @Component({
   selector: 'app-new-training',
@@ -7,7 +7,7 @@ import { Work } from 'src/app/interfaces/work';
   styleUrls: ['./new-training.component.scss'],
 })
 export class NewTrainingComponent implements OnInit {
-  works: Work[] = [];
+  works: IWork[] = [];
   @Output() trainingStart = new EventEmitter();
   constructor() {}
 
